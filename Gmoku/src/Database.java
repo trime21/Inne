@@ -3,10 +3,10 @@ import java.util.ArrayList;
 public class Database {
 
     ArrayList<ArrayList<Character>> gameBoard = new ArrayList<ArrayList<Character>>();
-    String firstPlayerNickname; // nick pierwszego gracza
-    char firstPlayerChar; // znak pierwszego gracza
-    String secondPlayerNickname; // nick drugiego gracza
-    char secondPlayerChar; // znak drugiego gracza
+    String firstPlayerNickname = "Pierwszy gracz"; // nick pierwszego gracza
+    char firstPlayerChar = "X"; // znak pierwszego gracza
+    String secondPlayerNickname = "Drugi gracz"; // nick drugiego gracza
+    char secondPlayerChar = "O"; // znak drugiego gracza
     String nickname = firstPlayerNickname; // nick aktualnego gracza
     char currentCharacter = firstPlayerChar; // znak aktualnego gracza
     int numberOfCharacters;
