@@ -33,4 +33,5 @@ public class Database {
     boolean compartmentLine;
     boolean compartmentColumn;
     boolean emptyField;
+    boolean rightChar;
 }
