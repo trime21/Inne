@@ -18,7 +18,6 @@ public class SetCoordinates {
             System.out.println(data.nickname + " Podaj kolumne");
             data.verificationOfData = false;
             while (!data.verificationOfData) {
-                data.verificationOfData = true;
                 try {
                     data.givenColumn = insert.input.nextInt();
                     data.verificationOfData = true;
